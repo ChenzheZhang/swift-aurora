@@ -24,6 +24,7 @@
 {{/* Avatar customization parameters */}}
 {{ $avatar_size := "large" }}
 {{ $avatar_shape := "circle" }}
+{{ $avatar_position := "50% 50%" }}
 {{ $avatar_config := index $design "avatar" }}
 {{ if and $avatar_config (reflect.IsMap $avatar_config) }}
   {{ $avatar_size_raw := index $avatar_config "size" }}
@@ -33,6 +34,10 @@
   {{ $avatar_shape_raw := index $avatar_config "shape" }}
   {{ if eq (printf "%T" $avatar_shape_raw) "string" }}
     {{ $avatar_shape = $avatar_shape_raw }}
+  {{ end }}
+  {{ $avatar_position_raw := index $avatar_config "position" }}
+  {{ if eq (printf "%T" $avatar_position_raw) "string" }}
+    {{ $avatar_position = strings.TrimSpace $avatar_position_raw }}
   {{ end }}
 {{ end }}
 
@@ -181,13 +186,13 @@
 
         {{ if $avatar }}
         <div class="avatar-wrapper {{ if $img }}-mt-24{{else}}mb-4{{end}}" style="width: {{$display_size}}px; height: {{$display_size}}px;">
-          {{ $avatar_image := $avatar.Fill (printf "%sx%s Center" $generation_size $generation_size) }}
+          {{ $avatar_image := $avatar.Fit (printf "%sx%s" $generation_size $generation_size) }}
           <img class="avatar {{$shape_class}} border-4 border-white shadow-2xl"
                src="{{ $avatar_image.RelPermalink }}"
                alt="{{$profile.title}}"
                width="{{$display_size}}"
                height="{{$display_size}}"
-               style="width: {{$display_size}}px; height: {{$display_size}}px; object-fit: cover;">
+               style="width: {{$display_size}}px; height: {{$display_size}}px; object-fit: cover; object-position: {{$avatar_position}};">
           {{ with $status_icon }}<span class="avatar-emoji">{{ . | emojify }}</span>{{ end }}
         </div>
         {{ end }}
