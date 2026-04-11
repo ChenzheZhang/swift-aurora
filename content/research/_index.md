@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: 'Research'
-summary: ''
+summary: 'Ongoing research, manuscripts in revision, and selected projects.'
 date: 2022-10-24
 type: landing
 
@@ -12,7 +12,7 @@ design:
 sections:
   - block: tag-cloud
     content:
-      title: Topics
+      title: Research Areas
       taxonomy: tags
       count: 20
       font_size_min: 0.8
@@ -25,34 +25,22 @@ sections:
         padding: ['2rem', '0', '2rem', '0']
   - block: paper-list
     content:
-      title: Working Papers
+      title: Ongoing Research
       filters:
         folders:
           - publications
-        publication_type: working-paper
+        publication_type: ongoing-research
     design:
       spacing:
         padding: ['2rem', '0', '2rem', '0']
   - block: paper-list
     content:
-      title: Publications
+      title: Selected Research Projects
       filters:
         folders:
           - publications
-        publication_type: article-journal
+        publication_type: completed-project
     design:
       spacing:
         padding: ['2rem', '0', '2rem', '0']
-  - block: paper-list
-    content:
-      title: Selected Works in Progress
-      filters:
-        folders:
-          - publications
-        publication_type: in-progress
-    design:
-      spacing:
-        padding: ['2rem', '0', '2rem', '0']
-
-
 ---

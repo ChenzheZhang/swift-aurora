@@ -14,7 +14,7 @@ sections:
     content:
       buttons:
         - text: Download CV
-          url: 'https://www.dropbox.com/s/e8n0l83yknn60bt/CV.pdf'
+          url: 'https://www.dropbox.com/scl/fi/kbqwki4acgf3yn1yp9ttz/resume.pdf?rlkey=kjkluqlih7vorj5zqcts7d4g5&dl=0'
           icon: hero/arrow-down-tray
     design:
       spacing:

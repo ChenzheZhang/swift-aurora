@@ -2,6 +2,9 @@
 title: 'Teaching'
 date: 2024-05-19
 type: landing
+build:
+  render: never
+  list: never
 
 design:
   # Section spacing

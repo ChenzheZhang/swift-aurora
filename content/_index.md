@@ -15,17 +15,15 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: |-
-        I am an assistant professor in the [Department of Agricultural and Resource Economics](https://cals.ncsu.edu/agricultural-and-resource-economics/) at [North Carolina State University](https://www.ncsu.edu).
+        I am a PhD student in the Department of Agricultural, Environmental, and Development Economics at [The Ohio State University](https://aede.osu.edu).
 
-        As an applied economist, my research spans environmental, energy, and development economics. The central theme of my work is to understand the impacts of climate change, environmental risks, and energy system transitions, as well as the roles of policy, technological change, and behavioral adaptation in addressing these challenges. My recent work focuses on:
-        * Energy transition, electrification, and policy designs for the net-zero emissions target
-        * Climate change mitigation, adaptation, and resilience
-        * Welfare impacts of technology and infrastructure investments in the electricity sector
-        * Information, risk perception, and household behavior
+        My research interests are in environmental economics, energy economics, and applied microeconomics. Broadly, I study how environmental risks, climate change, and energy transitions affect economic outcomes, with a particular interest in policy evaluation, behavioral responses, and adaptation. My recent and ongoing research focuses on:
+        * Air pollution, environmental risk, and their effects on human and institutional outcomes
+        * Climate adaptation and behavioral responses to environmental stress
+        * Energy transition, renewable energy, and related policy evaluation
+        * Empirical methods for causal inference, with an emphasis on original data construction and policy-relevant applied work
 
-        I received my Ph.D. in Environmental Economics from Duke University. Prior to Duke, I was a research associate at the Environmental Research Center of Duke Kunshan University. I received my B.A. in Economics and B.Sc. in Mathematics from Wuhan University.
-
-        The pronunciation of my name is similar to /Jen Sh-wen Wah-ng/. In Chinese, it is 王振轩.
+        I received my M.A. in Economics from Duke University. Prior to beginning my PhD, I completed my undergraduate study at Xi’an Jiaotong-Liverpool University. My work lies at the intersection of environmental economics, energy economics, and applied microeconomics, and I am especially interested in combining rigorous causal inference with original data construction.
       # Show a call-to-action button under your biography? (optional)
       # button:
       #   text: Download CV
@@ -41,7 +39,7 @@ sections:
       #     enable: true
       background:
         image:
-          filename: 'resume-bg.png'
+          filename: 'resume-bg.jpg'
           size: cover
           position: center
           parallax: true

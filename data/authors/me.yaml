@@ -1,84 +1,95 @@
 schema: "hugoblox/author/v1"
 slug: "me"
 is_owner: true
+
 name:
-  display: "Zhenxuan Wang"
-  given: "Zhenxuan"
-  family: "Wang"
+  display: "Chenzhe Zhang"
+  given: "Chenzhe"
+  family: "Zhang"
   alternate: ""
   pronunciation: ""
-  pronouns: "he/him"
+  pronouns: ""
+
 postnominals:
-  - "PhD"
-role: "Assistant Professor"
-bio: "I am an applied economist with research interests in environmental, energy, and development economics. The central theme of my work is to understand the impacts of climate change, environmental risks, and energy system transitions, as well as the roles of policy, technological change, and behavioral adaptation in addressing these challenges."
+  - "PhD Student"
+
+role: "PhD Student in Agricultural, Environmental, and Development Economics"
+
+bio: "I am a PhD student in Agricultural, Environmental, and Development Economics. My research interests lie in environmental economics, energy economics, and applied microeconomics, with a focus on air pollution, climate adaptation, energy transition, and policy evaluation. I am particularly interested in causal inference, original data construction, and empirical work at the intersection of environmental risk, human behavior, and economic outcomes."
+
 affiliations:
-  - name: "North Carolina State University"
-    url: "https://www.ncsu.edu"
+  - name: "The Ohio State University"
+    url: "https://aede.osu.edu"
+
 links:
   - icon: "hero/envelope"
-    url: "mailto:zhenxuan.wang@ncsu.edu"
+    url: "mailto:zhang.17382@buckeyemail.osu.edu"
     label: "E-mail Me"
   - icon: "brands/github"
-    url: "https://github.com/whuxuan"
+    url: "https://github.com/ChenzheZhang"
   - icon: "brands/linkedin"
-    url: "https://www.linkedin.com/in/zhenxuan-wang-econ"
-  - icon: "academicons/google-scholar"
-    url: "https://scholar.google.com/citations?hl=en&user=Fm57_2cAAAAJ"
+    url: "https://www.linkedin.com/in/chenzhe-zhang-40a477326/"
   - icon: "academicons/cv"
-    url: "https://www.dropbox.com/s/e8n0l83yknn60bt/CV.pdf"
+    url: "https://www.dropbox.com/scl/fi/kbqwki4acgf3yn1yp9ttz/resume.pdf?rlkey=kjkluqlih7vorj5zqcts7d4g5&dl=0"
+
 interests:
-  - "Environmental & Energy Economics"
-  - "Development Economics"
+  - "Environmental Economics"
+  - "Energy Economics"
+  - "Applied Microeconomics"
+  - "Air Pollution"
+  - "Climate Adaptation"
   - "Energy Transition"
-  - "Energy Infrastructure"
-  - "Climate Change and Adaptation"
+  - "Causal Inference"
+  - "Policy Evaluation"
+
 education:
-  - degree: "PhD in Environmental Economics"
-    institution: "Duke University"
-    start: "2018"
-    end: "2024"
-    summary: "Dissertation: The Economics of Energy Infrastructure and Climate Change"
-  - degree: "MA in Economics"
-    institution: "Duke University"
-    start: "2021"
-    end: "2024"
-    summary: ""
-  - degree: "BA in Economics & BS in Mathematics"
-    institution: "Wuhan University"
-    start: "2013"
-    end: "2017"
-    summary: ""
-experience:
-  - role: "Assistant Professor"
-    org: "North Carolina State University"
-    start: "2024"
+  - degree: "PhD in Agricultural, Environmental, and Development Economics"
+    institution: "The Ohio State University"
+    start: "2026"
     end: ""
     summary: ""
-  - role: "PhD Fellow"
-    org: "James E. Rogers Energy Access Project at Duke"
-    start: "2022"
-    end: "2024"
-    summary: ""
-  - role: "PhD Fellow"
-    org: "Nicholas Institute for Energy, Environment & Sustainability"
+
+  - degree: "M.A. in Economics"
+    institution: "Duke University"
+    start: "2024"
+    end: "2026"
+    summary: "Dean’s Research Award for Master’s Students"
+
+  - degree: "BSc in Economics and Finance"
+    institution: "Xi’an Jiaotong-Liverpool University"
     start: "2020"
     end: "2024"
-    summary: ""
-  - role: "Research Associate"
-    org: "Duke Kunshan University"
-    start: "2017"
-    end: "2018"
-    summary: ""
-# skills:
-#   - name: "Technical Skills"
-#     items: []
-#   - name: "Research & Communication"
-#     items: []
-# languages: []
+    summary: "First Honor Degree"
+
+experience:
+  - role: "Research Assistant"
+    org: "Wind Farm Construction and Local Climate Project"
+    start: "2025"
+    end: ""
+    summary: "Using event-study and staggered Difference-in-Differences methods to study how wind-farm construction affects local atmospheric conditions, with particular attention to thermal inversions."
+
+  - role: "Undergraduate Final Year Project"
+    org: "Clear Sky, Clear Minds"
+    start: "2023"
+    end: ""
+    summary: "Studying how air pollution affects research proposal submissions using upwind-city pollution as an instrumental variable and newly compiled weather, air-quality, and NSFC proposal data."
+
+  - role: "Project Member"
+    org: "Food Safety Confidence Project"
+    start: "2024"
+    end: ""
+    summary: "Contributed to a project on consumer food-safety confidence during the Spring Festival in China, including model refinement and empirical analysis. Manuscript under revision at Food Policy."
+
 awards:
-  - title: "James B. Duke Fellowship"
+  - title: "Dean’s Research Award for Master’s Students"
     awarder: "Duke University"
-    date: "2018-2024"
-    summary: "https://gradschool.duke.edu/story/history-spotlight-james-b-duke-fellowship/"
+    date: "2025"
+    summary: ""
+    icon: ""
+
+
+  - title: "Academic Achievement Award"
+    awarder: "Xi’an Jiaotong-Liverpool University"
+    date: "2023"
+    summary: "Awarded to students in the top 10% of the cohort."
     icon: ""
