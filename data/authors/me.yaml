@@ -30,7 +30,7 @@ links:
   - icon: "brands/linkedin"
     url: "https://www.linkedin.com/in/chenzhe-zhang-40a477326/"
   - icon: "academicons/cv"
-    url: "/resume.pdf"
+    url: "resume.pdf"
 
 interests:
   - "Environmental Economics"

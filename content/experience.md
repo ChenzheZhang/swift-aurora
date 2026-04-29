@@ -14,7 +14,7 @@ sections:
     content:
       buttons:
         - text: Download CV
-          url: '/resume.pdf'
+          url: 'resume.pdf'
           icon: hero/arrow-down-tray
     design:
       spacing:
