@@ -16,7 +16,7 @@ sections:
       taxonomy: tags
       count: 20
       font_size_min: 0.8
-      font_size_max: 2.0
+      font_size_max: 1.0
       filters:
         folders:
           - publications
