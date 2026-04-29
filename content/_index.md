@@ -56,7 +56,8 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-        position: 50% 30% # Horizontal Vertical; lower second value shows more forehead and less suit
+        position: 50% 20% # Horizontal Vertical; smaller second value moves the crop upward
+        zoom: 1.18 # >1 zooms in so the face appears larger inside the circle
   # - block: markdown
   #   content:
   #     title: '📚 My Research'

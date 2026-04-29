@@ -45,6 +45,9 @@ node_modules/
 pagefind/
 static/pagefind/
 
+# Private local source material
+public_phd_application_workbook_chenzhe.xlsx
+
 # ============================================================================
 # Operating System
 # ============================================================================

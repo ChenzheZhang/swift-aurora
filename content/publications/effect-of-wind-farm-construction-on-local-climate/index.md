@@ -5,7 +5,7 @@ authors:
   - me
 
 publication_types: ["ongoing-research"]
-publication: "*Research assistant project, ongoing*"
+publication: "*Research assistant project, May 2025-Dec. 2025*"
 date: 2025-05-01
 
 abstract: I use an event-study and staggered difference-in-differences design to examine how wind-farm construction affects local atmospheric conditions. Preliminary evidence suggests that wind-farm construction may reduce the frequency of thermal inversions, with implications for local climate exposure and for the use of thermal inversions as an instrumental variable in applied research.

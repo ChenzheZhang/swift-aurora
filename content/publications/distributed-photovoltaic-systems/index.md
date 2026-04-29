@@ -5,7 +5,7 @@ authors:
   - me
 
 publication_types: ["completed-project"]
-publication: "*Course project*"
+publication: "*Course project, Sep. 2025-Dec. 2025*"
 date: 2025-12-01
 
 abstract: This course project develops a continuous-time optimal control model in which a social planner jointly chooses distributed photovoltaic subsidies and direct pollution abatement. Preliminary calibration points to a front-loaded and declining subsidy path and highlights the importance of grid efficiency and policy trust for avoiding inefficient subsidy use.

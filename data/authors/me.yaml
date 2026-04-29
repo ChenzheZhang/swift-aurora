@@ -15,7 +15,7 @@ postnominals:
 
 role: "PhD Student in Agricultural, Environmental, and Development Economics"
 
-bio: "I am a PhD student in Agricultural, Environmental, and Development Economics. My research interests lie in environmental economics, energy economics, and applied microeconomics, with a focus on air pollution, climate adaptation, energy transition, and policy evaluation. I am particularly interested in causal inference, original data construction, and empirical work at the intersection of environmental risk, human behavior, and economic outcomes."
+bio: "I am a PhD student in Agricultural, Environmental, and Development Economics. My research interests lie in applied microeconomics, environmental and energy economics, policy evaluation, causal inference, and machine learning. I am particularly interested in original data construction and empirical work at the intersection of environmental risk, human behavior, and economic outcomes."
 
 affiliations:
   - name: "The Ohio State University"
@@ -30,7 +30,7 @@ links:
   - icon: "brands/linkedin"
     url: "https://www.linkedin.com/in/chenzhe-zhang-40a477326/"
   - icon: "academicons/cv"
-    url: "https://www.dropbox.com/scl/fi/kbqwki4acgf3yn1yp9ttz/resume.pdf?rlkey=kjkluqlih7vorj5zqcts7d4g5&dl=0"
+    url: "/resume.pdf"
 
 interests:
   - "Environmental Economics"
@@ -41,55 +41,91 @@ interests:
   - "Energy Transition"
   - "Causal Inference"
   - "Policy Evaluation"
+  - "Machine Learning"
 
 education:
   - degree: "PhD in Agricultural, Environmental, and Development Economics"
     institution: "The Ohio State University"
-    start: "2026"
+    start: "2026-08-01"
     end: ""
     summary: ""
 
   - degree: "M.A. in Economics"
     institution: "Duke University"
-    start: "2024"
-    end: "2026"
+    start: "2024-08-01"
+    end: "2026-05-01"
     summary: "Dean’s Research Award for Master’s Students"
 
   - degree: "BSc in Economics and Finance"
     institution: "Xi’an Jiaotong-Liverpool University"
-    start: "2020"
-    end: "2024"
-    summary: "First Honor Degree"
+    start: "2020-09-01"
+    end: "2024-06-01"
+    summary: "First-Class Honors"
 
 experience:
   - role: "Research Assistant"
-    org: "Wind Farm Construction and Local Climate Project"
-    start: "2025"
-    end: ""
-    summary: "Using event-study and staggered Difference-in-Differences methods to study how wind-farm construction affects local atmospheric conditions, with particular attention to thermal inversions."
+    org: "Effect of Wind Farm Construction on Local Climate Change"
+    start: "2025-05-01"
+    end: "2025-12-01"
+    summary: "Employing an event-study and staggered Difference-in-Differences design to examine the impact of wind-farm construction on local atmospheric conditions, with implications for thermal inversions and applied research design."
 
-  - role: "Undergraduate Final Year Project"
-    org: "Clear Sky, Clear Minds"
-    start: "2023"
-    end: ""
-    summary: "Studying how air pollution affects research proposal submissions using upwind-city pollution as an instrumental variable and newly compiled weather, air-quality, and NSFC proposal data."
+  - role: "Course Project"
+    org: "Dynamic Optimization of Distributed Photovoltaic Systems"
+    start: "2025-09-01"
+    end: "2025-12-01"
+    summary: "Developed a continuous-time optimal control model for distributed photovoltaic subsidies and direct pollution abatement, with calibration highlighting grid efficiency and policy trust."
 
   - role: "Project Member"
-    org: "Food Safety Confidence Project"
-    start: "2024"
+    org: "The Shadow under Holiday: Consumer Food-Safety Confidence during the Spring Festival in China"
+    start: "2024-09-01"
     end: ""
-    summary: "Contributed to a project on consumer food-safety confidence during the Spring Festival in China, including model refinement and empirical analysis. Manuscript under revision at Food Policy."
+    summary: "Contributed to model refinement and empirical analysis for a manuscript under revision at Food Policy on personality traits, economic perceptions, trust, and food-safety confidence."
+
+  - role: "Capstone Project"
+    org: "Government Endorsement and Voter Skepticism"
+    start: "2025-02-01"
+    end: "2025-06-01"
+    summary: "Developed theoretical predictions and designed a controlled experiment on perceived government bias, selective disclosure, and voter decision-making."
+
+  - role: "Capstone Project"
+    org: "Long-Term Effects of Education on Earnings and Psychological Well-Being"
+    start: "2025-01-01"
+    end: "2025-06-01"
+    summary: "Used CFPS 2010-2022 data and regression discontinuity designs to study education policy effects on earnings and mental health."
+
+  - role: "Undergraduate Final-Year Project"
+    org: "Clear Sky, Clear Minds: Empirical Evidence from NSFC Applications"
+    start: "2023-09-01"
+    end: "2024-07-01"
+    summary: "Used upwind-city air pollution as an instrumental variable and compiled weather, air-quality, and NSFC proposal records from 2013 to 2019."
+
+  - role: "Undergraduate Research Assistant"
+    org: "Policy Effects on Real Estate Supply Behavior in Suzhou"
+    start: "2023-06-01"
+    end: "2023-09-01"
+    summary: "Collected underground garage column-spacing data and used a regression discontinuity design to evaluate the 2013 air-defense parking rent regulation."
+
+  - role: "Undergraduate Research Assistant"
+    org: "The Effect of Nutrition Label Education on Consumers' Healthy Diet Choices"
+    start: "2022-06-01"
+    end: "2022-09-01"
+    summary: "Designed and conducted a field experiment on nutrition-label education and consumers' willingness to pay for healthier food options."
 
 awards:
   - title: "Dean’s Research Award for Master’s Students"
     awarder: "Duke University"
-    date: "2025"
+    date: "2025-10-01"
     summary: ""
     icon: ""
 
+  - title: "International Business School Suzhou Summer Undergraduate Research Presentation, First Place"
+    awarder: "Xi’an Jiaotong-Liverpool University"
+    date: "2023-09-01"
+    summary: ""
+    icon: ""
 
   - title: "Academic Achievement Award"
     awarder: "Xi’an Jiaotong-Liverpool University"
-    date: "2023"
+    date: "2023-08-01"
     summary: "Awarded to students in the top 10% of the cohort."
     icon: ""

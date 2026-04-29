@@ -25,6 +25,7 @@
 {{ $avatar_size := "large" }}
 {{ $avatar_shape := "circle" }}
 {{ $avatar_position := "50% 50%" }}
+{{ $avatar_zoom := "1" }}
 {{ $avatar_config := index $design "avatar" }}
 {{ if and $avatar_config (reflect.IsMap $avatar_config) }}
   {{ $avatar_size_raw := index $avatar_config "size" }}
@@ -38,6 +39,10 @@
   {{ $avatar_position_raw := index $avatar_config "position" }}
   {{ if eq (printf "%T" $avatar_position_raw) "string" }}
     {{ $avatar_position = strings.TrimSpace $avatar_position_raw }}
+  {{ end }}
+  {{ $avatar_zoom_raw := index $avatar_config "zoom" }}
+  {{ if eq (printf "%T" $avatar_zoom_raw) "string" }}
+    {{ $avatar_zoom = strings.TrimSpace $avatar_zoom_raw }}
   {{ end }}
 {{ end }}
 
@@ -192,7 +197,7 @@
                alt="{{$profile.title}}"
                width="{{$display_size}}"
                height="{{$display_size}}"
-               style="width: {{$display_size}}px; height: {{$display_size}}px; object-fit: cover; object-position: {{$avatar_position}};">
+               style="width: {{$display_size}}px; height: {{$display_size}}px; object-fit: cover; object-position: {{$avatar_position}}; transform: scale({{$avatar_zoom}}); transform-origin: center;">
           {{ with $status_icon }}<span class="avatar-emoji">{{ . | emojify }}</span>{{ end }}
         </div>
         {{ end }}

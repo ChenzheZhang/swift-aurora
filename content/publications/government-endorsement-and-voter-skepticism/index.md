@@ -5,7 +5,7 @@ authors:
   - me
 
 publication_types: ["completed-project"]
-publication: "*Capstone project*"
+publication: "*Capstone project, Feb. 2025-Jun. 2025*"
 date: 2025-06-01
 
 abstract: This capstone project develops theoretical predictions about voter behavior when governments have different policy preferences and may disclose information selectively. I designed a controlled experiment to test how perceived government bias changes voter decision-making and political skepticism.

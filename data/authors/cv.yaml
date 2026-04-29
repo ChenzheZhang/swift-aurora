@@ -1,0 +1,40 @@
+schema: "hugoblox/author/v1"
+slug: "cv"
+is_owner: false
+
+name:
+  display: "Chenzhe Zhang"
+  given: "Chenzhe"
+  family: "Zhang"
+
+experience:
+  - role: "Research Assistant"
+    org: "Effect of Wind Farm Construction on Local Climate Change"
+    start: "2025-05-01"
+    end: "2025-12-01"
+    summary: "Employing an event-study and staggered Difference-in-Differences design to examine the impact of wind-farm construction on local atmospheric conditions, with implications for thermal inversions and applied research design."
+
+  - role: "Course Project"
+    org: "Dynamic Optimization of Distributed Photovoltaic Systems"
+    start: "2025-09-01"
+    end: "2025-12-01"
+    summary: "Developed a continuous-time optimal control model for distributed photovoltaic subsidies and direct pollution abatement, with calibration highlighting grid efficiency and policy trust."
+
+  - role: "Project Member"
+    org: "The Shadow under Holiday: Consumer Food-Safety Confidence during the Spring Festival in China"
+    start: "2024-09-01"
+    end: ""
+    summary: "Contributed to model refinement and empirical analysis for a manuscript under revision at Food Policy on personality traits, economic perceptions, trust, and food-safety confidence."
+
+awards:
+  - title: "Dean’s Research Award for Master’s Students"
+    awarder: "Duke University"
+    date: "2025-10-01"
+    summary: ""
+    icon: ""
+
+  - title: "Academic Achievement Award"
+    awarder: "Xi’an Jiaotong-Liverpool University"
+    date: "2023-08-01"
+    summary: "Awarded to students in the top 10% of the cohort."
+    icon: ""

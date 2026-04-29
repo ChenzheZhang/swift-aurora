@@ -5,7 +5,7 @@ authors:
   - me
 
 publication_types: ["completed-project"]
-publication: "*Undergraduate research assistant project*"
+publication: "*Undergraduate research assistant project, Jun. 2022-Sep. 2022*"
 date: 2022-09-01
 
 abstract: This field experiment evaluates whether nutrition label education changes consumers' willingness to pay for healthier food options. The intervention increased willingness to pay for products with lower fat and sodium content, while effects for other nutrients were more limited.

@@ -33,6 +33,7 @@ sections:
     design:
       spacing:
         padding: ['2rem', '0', '2rem', '0']
+
   - block: paper-list
     content:
       title: Selected Research Projects

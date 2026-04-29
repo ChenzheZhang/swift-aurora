@@ -14,14 +14,14 @@ sections:
     content:
       buttons:
         - text: Download CV
-          url: 'https://www.dropbox.com/scl/fi/kbqwki4acgf3yn1yp9ttz/resume.pdf?rlkey=kjkluqlih7vorj5zqcts7d4g5&dl=0'
+          url: '/resume.pdf'
           icon: hero/arrow-down-tray
     design:
       spacing:
         padding: ['1rem', '0', '1rem', '0']
   - block: resume-experience
     content:
-      username: me
+      username: cv
     design:
       # Hugo date format
       date_format: 'January 2006'
@@ -34,7 +34,7 @@ sections:
   - block: resume-awards
     content:
       title: Awards
-      username: me
+      username: cv
   # - block: resume-languages
   #   content:
   #     title: Languages
