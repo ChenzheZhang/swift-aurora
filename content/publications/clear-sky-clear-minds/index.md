@@ -7,6 +7,9 @@ authors:
 publication_types: ["completed-project"]
 publication: "*Undergraduate final-year project*"
 date: 2024-07-01
+links:
+  - type: pdf
+    url: "/files/PhD_Application_Writing_Sample_Environmental_Econ_Chenzhe_Zhang.pdf"
 
 abstract: This project studies how air pollution shapes academic research activity. Using pollution exposure from upwind cities as an instrumental variable and linking daily weather and air quality data to annual NSFC proposal records from 2013 to 2019, I find that air pollution exposure in the two to three months before application reduces the number of grant proposals submitted.
 

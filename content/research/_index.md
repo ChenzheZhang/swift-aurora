@@ -10,16 +10,63 @@ design:
   spacing: '1rem'
 
 sections:
-  - block: tag-cloud
+  - block: research-areas
     content:
       title: Research Areas
-      taxonomy: tags
-      count: 20
-      font_size_min: 0.8
-      font_size_max: 1.0
-      filters:
-        folders:
-          - publications
+      intro: >-
+        I use applied microeconomics to study how environmental conditions,
+        public policy, and information shape behavior and welfare.
+      areas:
+        - title: Environmental & Energy Economics
+          eyebrow: Primary focus
+          project_count: 3 projects
+          description: >-
+            I study pollution, climate, and the energy transition, with work on
+            air quality, wind power, and distributed solar.
+          topics:
+            - Air Pollution
+            - Climate & Wind
+            - Energy Transition
+          featured: true
+        - title: Behavioral, Consumer & Health Economics
+          eyebrow: Research theme
+          project_count: 2 projects
+          description: >-
+            I examine how information and labeling shape food-safety confidence
+            and healthy consumer choices.
+          topics:
+            - Consumer Choice
+            - Food Policy
+            - Health
+        - title: Education, Labor & Urban Economics
+          eyebrow: Research theme
+          project_count: 2 projects
+          description: >-
+            I evaluate long-run education outcomes and policy effects in labor
+            and housing markets.
+          topics:
+            - Education
+            - Labor
+            - Housing
+        - title: Political Economy & Information
+          eyebrow: Research theme
+          project_count: 1 project
+          description: >-
+            I study selective disclosure and how government endorsements affect
+            voter beliefs.
+          topics:
+            - Information Disclosure
+            - Political Communication
+      methods:
+        title: Methods
+        intro: Empirical and structural tools used across the research portfolio.
+        items:
+          - Causal Inference
+          - Regression Discontinuity
+          - Instrumental Variables
+          - Field Experiments
+          - Survey Research
+          - Dynamic Optimization
     design:
       spacing:
         padding: ['2rem', '0', '2rem', '0']

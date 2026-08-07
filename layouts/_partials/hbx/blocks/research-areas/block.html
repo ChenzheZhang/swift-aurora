@@ -1,0 +1,57 @@
+{{/* Curated Research Areas Block */}}
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
+
+{{ $title := index $content "title" | default "Research Areas" }}
+{{ $intro := index $content "intro" }}
+{{ $areas := index $content "areas" | default (slice) }}
+{{ $methods := index $content "methods" | default (dict) }}
+{{ $heading_id := printf "research-areas-%s" ($title | urlize) }}
+
+<section class="research-areas-section" aria-labelledby="{{ $heading_id }}">
+  <div class="research-areas-shell">
+    <header class="research-areas-header">
+      <div class="research-areas-heading-wrap">
+        <p class="research-areas-kicker">Research portfolio</p>
+        <h2 id="{{ $heading_id }}" class="research-areas-title">{{ $title }}</h2>
+      </div>
+      {{ with $intro }}
+        <p class="research-areas-intro">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    <div class="research-areas-grid">
+      {{ range $areas }}
+        <article class="research-area-card{{ if .featured }} research-area-card-featured{{ end }}">
+          <div class="research-area-meta">
+            {{ with .eyebrow }}<span class="research-area-eyebrow">{{ . }}</span>{{ end }}
+            {{ with .project_count }}<span class="research-area-count">{{ . }}</span>{{ end }}
+          </div>
+          <h3 class="research-area-name">{{ .title }}</h3>
+          {{ with .description }}<p class="research-area-description">{{ . }}</p>{{ end }}
+          {{ with .topics }}
+            <ul class="research-area-topics" aria-label="Topics">
+              {{ range . }}<li>{{ . }}</li>{{ end }}
+            </ul>
+          {{ end }}
+        </article>
+      {{ end }}
+    </div>
+
+    {{ if reflect.IsMap $methods }}
+      {{ $method_items := index $methods "items" | default (slice) }}
+      {{ if gt (len $method_items) 0 }}
+        <div class="research-methods">
+          <div class="research-methods-copy">
+            <h3>{{ index $methods "title" | default "Methods" }}</h3>
+            {{ with index $methods "intro" }}<p>{{ . }}</p>{{ end }}
+          </div>
+          <ul class="research-method-list" aria-label="Research methods">
+            {{ range $method_items }}<li>{{ . }}</li>{{ end }}
+          </ul>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
