@@ -23,7 +23,7 @@ affiliations:
 
 links:
   - icon: "hero/envelope"
-    url: "mailto:zhang.17382@buckeyemail.osu.edu"
+    url: "mailto:zhang.17382@osu.edu"
     label: "E-mail Me"
   - icon: "brands/github"
     url: "https://github.com/ChenzheZhang"
@@ -75,12 +75,6 @@ experience:
     end: "2025-12-01"
     summary: "Developed a continuous-time optimal control model for distributed photovoltaic subsidies and direct pollution abatement, with calibration highlighting grid efficiency and policy trust."
 
-  - role: "Project Member"
-    org: "The Shadow under Holiday: Consumer Food-Safety Confidence during the Spring Festival in China"
-    start: "2024-09-01"
-    end: ""
-    summary: "Contributed to model refinement and empirical analysis for a manuscript under revision at Food Policy on personality traits, economic perceptions, trust, and food-safety confidence."
-
   - role: "Capstone Project"
     org: "Government Endorsement and Voter Skepticism"
     start: "2025-02-01"
@@ -112,15 +106,15 @@ experience:
     summary: "Designed and conducted a field experiment on nutrition-label education and consumers' willingness to pay for healthier food options."
 
 awards:
-  - title: "Dean’s Research Award for Master’s Students"
+  - title: "ENGIE-Axium Scholarship"
     awarder: "Duke University"
-    date: "2025-10-01"
+    date: "2026-04-01"
     summary: ""
     icon: ""
 
-  - title: "International Business School Suzhou Summer Undergraduate Research Presentation, First Place"
-    awarder: "Xi’an Jiaotong-Liverpool University"
-    date: "2023-09-01"
+  - title: "Dean’s Research Award for Master’s Students"
+    awarder: "Duke University"
+    date: "2025-10-01"
     summary: ""
     icon: ""
 

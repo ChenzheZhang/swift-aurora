@@ -4,6 +4,9 @@
 {{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
 
 {{ $title := index $content "title" | default "Research Areas" }}
+{{ $kicker := index $content "kicker" | default "Research portfolio" }}
+{{ $topics_label := index $content "topics_label" | default "Topics" }}
+{{ $methods_label := index $content "methods_label" | default "Research methods" }}
 {{ $intro := index $content "intro" }}
 {{ $areas := index $content "areas" | default (slice) }}
 {{ $methods := index $content "methods" | default (dict) }}
@@ -13,7 +16,7 @@
   <div class="research-areas-shell">
     <header class="research-areas-header">
       <div class="research-areas-heading-wrap">
-        <p class="research-areas-kicker">Research portfolio</p>
+        <p class="research-areas-kicker">{{ $kicker }}</p>
         <h2 id="{{ $heading_id }}" class="research-areas-title">{{ $title }}</h2>
       </div>
       {{ with $intro }}
@@ -31,7 +34,7 @@
           <h3 class="research-area-name">{{ .title }}</h3>
           {{ with .description }}<p class="research-area-description">{{ . }}</p>{{ end }}
           {{ with .topics }}
-            <ul class="research-area-topics" aria-label="Topics">
+            <ul class="research-area-topics" aria-label="{{ $topics_label }}">
               {{ range . }}<li>{{ . }}</li>{{ end }}
             </ul>
           {{ end }}
@@ -47,7 +50,7 @@
             <h3>{{ index $methods "title" | default "Methods" }}</h3>
             {{ with index $methods "intro" }}<p>{{ . }}</p>{{ end }}
           </div>
-          <ul class="research-method-list" aria-label="Research methods">
+          <ul class="research-method-list" aria-label="{{ $methods_label }}">
             {{ range $method_items }}<li>{{ . }}</li>{{ end }}
           </ul>
         </div>

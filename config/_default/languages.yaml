@@ -5,18 +5,28 @@
 # Default language
 en:
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+  # Keep the Chinese content ready, but do not publish it until this is removed.
+  disabled: true
+  locale: zh-Hans
+  contentDir: content/zh
+  title: 张宸哲
+  params:
+    description: 张宸哲的学术主页：环境经济学、能源经济学与应用微观经济学。
+  menu:
+    main:
+      - name: 首页
+        url: /
+        weight: 10
+      - name: 履历
+        url: /experience
+        weight: 20
+      - name: 研究
+        url: /research
+        weight: 30
+      - name: 博士申请指南
+        url: /phd-application-guide
+        weight: 40

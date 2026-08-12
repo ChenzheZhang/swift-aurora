@@ -20,13 +20,43 @@ experience:
     end: "2025-12-01"
     summary: "Developed a continuous-time optimal control model for distributed photovoltaic subsidies and direct pollution abatement, with calibration highlighting grid efficiency and policy trust."
 
-  - role: "Project Member"
-    org: "The Shadow under Holiday: Consumer Food-Safety Confidence during the Spring Festival in China"
-    start: "2024-09-01"
-    end: ""
-    summary: "Contributed to model refinement and empirical analysis for a manuscript under revision at Food Policy on personality traits, economic perceptions, trust, and food-safety confidence."
+  - role: "Undergraduate Final-Year Project"
+    org: "Clear Sky, Clear Minds: Empirical Evidence from NSFC Applications"
+    start: "2023-09-01"
+    end: "2024-07-01"
+    summary: "Used upwind-city air pollution as an instrumental variable and compiled weather, air-quality, and NSFC proposal records from 2013 to 2019."
+
+  - role: "Capstone Project"
+    org: "Government Endorsement and Voter Skepticism"
+    start: "2025-02-01"
+    end: "2025-06-01"
+    summary: "Developed theoretical predictions and designed a controlled experiment on perceived government bias, selective disclosure, and voter decision-making."
+
+  - role: "Capstone Project"
+    org: "Long-Term Effects of Education on Earnings and Psychological Well-Being"
+    start: "2025-01-01"
+    end: "2025-06-01"
+    summary: "Used CFPS 2010-2022 data and regression discontinuity designs to study education policy effects on earnings and mental health."
+
+  - role: "Undergraduate Research Assistant"
+    org: "Policy Effects on Real Estate Supply Behavior in Suzhou"
+    start: "2023-06-01"
+    end: "2023-09-01"
+    summary: "Collected underground garage column-spacing data and used a regression discontinuity design to evaluate the 2013 air-defense parking rent regulation."
+
+  - role: "Undergraduate Research Assistant"
+    org: "The Effect of Nutrition Label Education on Consumers' Healthy Diet Choices"
+    start: "2022-06-01"
+    end: "2022-09-01"
+    summary: "Designed and conducted a field experiment on nutrition-label education and consumers' willingness to pay for healthier food options."
 
 awards:
+  - title: "ENGIE-Axium Scholarship"
+    awarder: "Duke University"
+    date: "2026-04-01"
+    summary: ""
+    icon: ""
+
   - title: "Dean’s Research Award for Master’s Students"
     awarder: "Duke University"
     date: "2025-10-01"

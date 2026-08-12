@@ -274,7 +274,7 @@
                   {{ $scheme := (urls.Parse $link).Scheme }}
                   {{ $target := "" }}
                   {{ if not $scheme }}
-                    {{ if not (hasPrefix $link "#") }}
+                    {{ if and (not (hasPrefix $link "#")) (not (hasPrefix $link "/")) }}
                       {{ $link = $link | relLangURL }}
                     {{ end }}
                     {{ if eq (path.Ext $link) ".pdf" }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
@@ -325,7 +325,7 @@
             {{ $scheme := (urls.Parse $linkUrl).Scheme }}
             {{ $target := "" }}
             {{ if not $scheme }}
-              {{ if not (hasPrefix $linkUrl "#") }}
+              {{ if and (not (hasPrefix $linkUrl "#")) (not (hasPrefix $linkUrl "/")) }}
                 {{ $linkUrl = $linkUrl | relLangURL }}
               {{ end }}
               {{ if eq (path.Ext $linkUrl) ".pdf" }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
@@ -382,7 +382,7 @@
             {{ $scheme := (urls.Parse $button_link).Scheme }}
             {{ $target := "" }}
             {{ if not $scheme }}
-              {{ if not (hasPrefix $button_link "#") }}
+              {{ if and (not (hasPrefix $button_link "#")) (not (hasPrefix $button_link "/")) }}
                 {{ $button_link = $button_link | relLangURL }}
               {{ end }}
               {{ if eq (path.Ext $button_link) ".pdf" }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
